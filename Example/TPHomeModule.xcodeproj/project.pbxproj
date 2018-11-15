@@ -38,8 +38,8 @@
 
 /* Begin PBXFileReference section */
 		13804BB088A71148A63ED93D /* Pods_TPHomeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPHomeModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3EE47B639B56862094C99A02 /* TPHomeModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TPHomeModule.podspec; path = ../TPHomeModule.podspec; sourceTree = "<group>"; };
-		4E32AA1A56BC830374CD7A6C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3EE47B639B56862094C99A02 /* TPHomeModule.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TPHomeModule.podspec; path = ../TPHomeModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4E32AA1A56BC830374CD7A6C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4E9D48CA27A8FA2153085341 /* Pods-TPHomeModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPHomeModule_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TPHomeModule_Tests/Pods-TPHomeModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TPHomeModule_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TPHomeModule_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		7543B6DD6A9CE87FAB3783E0 /* Pods-TPHomeModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPHomeModule_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-TPHomeModule_Example/Pods-TPHomeModule_Example.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC672181BA59717395993439 /* Pods-TPHomeModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPHomeModule_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPHomeModule_Example/Pods-TPHomeModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B43DE86AD8FFC3A3878FDD0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B43DE86AD8FFC3A3878FDD0F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BCECFE2DA9D2AA0C1F56C940 /* Pods-TPHomeModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TPHomeModule_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TPHomeModule_Tests/Pods-TPHomeModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C32F1747447E9F7D7C3B1413 /* Pods_TPHomeModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPHomeModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */

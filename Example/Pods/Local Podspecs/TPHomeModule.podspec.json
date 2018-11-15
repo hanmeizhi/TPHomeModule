@@ -1,0 +1,22 @@
+{
+  "name": "TPHomeModule",
+  "version": "0.1.0",
+  "summary": "A short description of TPHomeModule.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/qdn/TPHomeModule",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "qdn": "hanmeizhi@163.com"
+  },
+  "source": {
+    "git": "https://github.com/qdn/TPHomeModule.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TPHomeModule/Classes/**/*"
+}
