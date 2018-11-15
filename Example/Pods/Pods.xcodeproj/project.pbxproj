@@ -12,6 +12,8 @@
 		2BED408DB400A3E8DFE9E25F301BE67A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		37432D809C451FCF9A71259B3EE7D0F7 /* Pods-TPHomeModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B53F2E02AD9ACF39D68C9E0339CD6EA /* Pods-TPHomeModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		57FA38205959610371C4BBF7DDE0F6D0 /* Pods-TPHomeModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0BFDDFE194001889124048A9470C31D /* Pods-TPHomeModule_Tests-dummy.m */; };
+		7652EDAB219D690600433592 /* Corner.h in Headers */ = {isa = PBXBuildFile; fileRef = 7652EDA9219D690600433592 /* Corner.h */; };
+		7652EDAC219D690600433592 /* Corner.m in Sources */ = {isa = PBXBuildFile; fileRef = 7652EDAA219D690600433592 /* Corner.m */; };
 		803B76620AD4FAB6D2C3361620724203 /* Pods-TPHomeModule_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F60FCC0545A7E96309EB2AA944C8E365 /* Pods-TPHomeModule_Example-dummy.m */; };
 		AF439E0D6A7565557138170D0C943DBC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		C4C482D367267A9ADB7A99E3F7973023 /* TPHomeModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 928D7A341C88A8B3EDD4F3DFA48E4B03 /* TPHomeModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,9 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		08906EC73CAEC559647B3A1D8FB1B712 /* TPHomeModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = TPHomeModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		08906EC73CAEC559647B3A1D8FB1B712 /* TPHomeModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = TPHomeModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		1252C8DB83813D49A03C593457C4E2F2 /* Pods-TPHomeModule_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPHomeModule_Tests-resources.sh"; sourceTree = "<group>"; };
-		12FFC5619F22C82728536FB4671AF5D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		12FFC5619F22C82728536FB4671AF5D1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		26A40E4009B9DF0193BC4374A649E616 /* TPHomeModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TPHomeModule.modulemap; sourceTree = "<group>"; };
 		2CCFDAB6BD78A75AD68B44CE5260DBF6 /* TPHomeModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TPHomeModule.xcconfig; sourceTree = "<group>"; };
 		2ECC79F72859DFAE1E56EEAF654299FB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -48,22 +50,26 @@
 		3AA76CE372D9F0A9A0F6E71898FB814B /* Pods-TPHomeModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TPHomeModule_Example.modulemap"; sourceTree = "<group>"; };
 		4B53F2E02AD9ACF39D68C9E0339CD6EA /* Pods-TPHomeModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPHomeModule_Tests-umbrella.h"; sourceTree = "<group>"; };
 		4C3E6760DE94ABD7F423636394B311BF /* Pods-TPHomeModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPHomeModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5320C3FD0A256CD02230F4FF4F742782 /* TPHomeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TPHomeModule.framework; path = TPHomeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5320C3FD0A256CD02230F4FF4F742782 /* TPHomeModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TPHomeModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		61FBF00813E061D151163DFF904D5BE4 /* Pods-TPHomeModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TPHomeModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6418F9F5DADEC64D889DF1DE0DE1CFA9 /* Pods-TPHomeModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPHomeModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		68AE1334379063CAD9CA83554B9FF142 /* TPHomeModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TPHomeModule-dummy.m"; sourceTree = "<group>"; };
 		69822478A7C70861C33D3EF467E54791 /* Pods-TPHomeModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPHomeModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6ACB70695AFEA39A47B4F22B0F8951C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6ACB70695AFEA39A47B4F22B0F8951C2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		729F1D771E1C403052AAC8EE38B0FD92 /* Pods-TPHomeModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TPHomeModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7652EDA9219D690600433592 /* Corner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Corner.h; path = TPHomeModule/Classes/Corner.h; sourceTree = "<group>"; };
+		7652EDAA219D690600433592 /* Corner.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Corner.m; path = TPHomeModule/Classes/Corner.m; sourceTree = "<group>"; };
+		7652EDAD219D696B00433592 /* TPHomeModule */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TPHomeModule; sourceTree = "<group>"; };
+		7652EDAE219D697900433592 /* TPHomeModule */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TPHomeModule; sourceTree = "<group>"; };
 		7730D1D20F93B7979A68D6A9136E5528 /* Pods-TPHomeModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TPHomeModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7A415E2AAB01F635760C225F5CC70FAD /* TPHomeModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPHomeModule-prefix.pch"; sourceTree = "<group>"; };
 		90AB0BFAB2927C3D3FAB4C0F5F3D28E8 /* Pods-TPHomeModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TPHomeModule_Example-umbrella.h"; sourceTree = "<group>"; };
 		928D7A341C88A8B3EDD4F3DFA48E4B03 /* TPHomeModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TPHomeModule-umbrella.h"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		99645EE326901D08B99E753B6133C328 /* Pods_TPHomeModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TPHomeModule_Tests.framework; path = "Pods-TPHomeModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99645EE326901D08B99E753B6133C328 /* Pods_TPHomeModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPHomeModule_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDB86A5777A3A7C5151CFF306CF6DCF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AF851199A6952848D629087F7A2BB568 /* Pods_TPHomeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TPHomeModule_Example.framework; path = "Pods-TPHomeModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF851199A6952848D629087F7A2BB568 /* Pods_TPHomeModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TPHomeModule_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F701D1E084B7CF715198833CE0C37E /* Pods-TPHomeModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TPHomeModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		D0BFDDFE194001889124048A9470C31D /* Pods-TPHomeModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TPHomeModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		D1E9C77603F54D28E067D616F91A7EA8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = TPHomeModule/Classes/ReplaceMe.m; sourceTree = "<group>"; };
@@ -178,6 +184,10 @@
 				D1E9C77603F54D28E067D616F91A7EA8 /* ReplaceMe.m */,
 				59F5C08D663A819E5A8ED876FD60A792 /* Pod */,
 				A1E4E7B90805126D1D1DA9CB2512881F /* Support Files */,
+				7652EDA9219D690600433592 /* Corner.h */,
+				7652EDAE219D697900433592 /* TPHomeModule */,
+				7652EDAA219D690600433592 /* Corner.m */,
+				7652EDAD219D696B00433592 /* TPHomeModule */,
 			);
 			name = TPHomeModule;
 			path = ../..;
@@ -251,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F12108CF786001704D7401D01E2030AD /* Pods-TPHomeModule_Example-umbrella.h in Headers */,
+				7652EDAB219D690600433592 /* Corner.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7652EDAC219D690600433592 /* Corner.m in Sources */,
 				803B76620AD4FAB6D2C3361620724203 /* Pods-TPHomeModule_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
